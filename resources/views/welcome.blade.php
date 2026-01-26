@@ -39,7 +39,7 @@
             <div class="bg-white shadow-lg rounded-xl flex items-center justify-center p-4 flex-1 h-full shadow-cyan-500/50">
 
                 <!-- Formulario -->
-                <form class="w-full max-w-sm space-y-4 bg-gray-50 p-6 rounded-xl shadow-lg">
+                <form class="w-full max-w-lg space-y-4 bg-gray-50 p-6 rounded-xl shadow-lg">
 
                     <h2 class="text-2xl font-bold text-center mb-4">Login</h2>
 

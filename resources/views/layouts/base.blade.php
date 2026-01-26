@@ -28,7 +28,7 @@
 
     <!-- MAIN -->
     {{-- Contenido dinámico --}}
-    <main class="flex-1 flex">
+    <main class="flex-1 flex flex-col">
         @yield('content')
     </main>
 
