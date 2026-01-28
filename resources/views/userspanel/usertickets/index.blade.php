@@ -33,15 +33,16 @@
             </div>
 
             <div class="mt-3 mb-3">
-                <select name="departamento" id="departamento" class="mb-6 p-1 bg-amber-500 rounded-xl hover:bg-cyan-600">Departamento
+                <select name="departamento" id="departamento" class="mb-6 p-1 bg-amber-500 rounded-xl hover:bg-cyan-600" required>Departamento
                     <option value="" disabled selected>Selecciona tu departamento</option>
-                     <option value="1">Preescolar</option>
+                    <option value="1">Preescolar</option>
                     <option value="1">Primaria</option>
                     <option value="2">Secundaria</option>
                     <option value="3">Administración</option>
                     <option value="3">Dirección</option>
                     <option value="3">Comunicación</option>
                     <option value="3">Docente Preparatoria</option>
+                    <option value="3">Academias</option>
                 </select>
             </div>
 
@@ -56,20 +57,32 @@
     </div>
 
     <div class="bg-white shadow-lg rounded-xl flex flex-1 flex-col md:items-center justify-center p-4 md:m-5 shadow-cyan-500/50 md:h-120">
-        <h2 class="text-2xl font-bold text-center mb-7">Tus Tickets</h2>
+        <h2 class="text-2xl font-bold text-center mb-7 font-serif">Tus Tickets</h2>
         <div class=" flex-1 space-y-5">
-            <div class=" shadow-lg rounded-2xl shadow-amber-200 items-center justify-center p-5 w-full md:w-150 bg-orange-300">
-                <h1>hola</h1>
-                <p>tu ticket esta en proceso</p>
-                <p>Atentido por</p>
-                <p>tiempo respuesta</p>
+            <!-- Ticket model  -->
+            <div class=" shadow-lg rounded-2xl shadow-blue-300 items-center justify-center p-5 w-full md:w-150 bg-gray-200">
+                <div class=" flex justify-between mb-2">
+                    <h1 class=" font-serif text-sm font-bold text-cyan-700">Ticket # <span class=" text-orange-500">222</span></h1>
+                    <a class=" rounded-2xl text-xs font-bold text-red-700" href="">Cancelar Ticket</a>
+                </div>
+                <div class=" bg-white rounded-2xl pb-3">
+                    <p class="rounded-lg bg-cyan-500 font-serif items-center justify-center flex font-bold text-white mb-1">PC no enciende</p>
+                    <p class=" pl-3 font-serif font-bold text-cyan-500 text-sm">Estatus: <span class=" text-yellow-300 font-sans font-bold">En espera</span></p>
+                    <p class=" pl-3 font-serif font-bold text-cyan-500 text-sm">Asignado a: <span class=" font-normal font-sans text-black">Fulanito</span></p>
+                </div>
             </div>
 
-            <div class=" shadow-lg rounded-2xl shadow-amber-200 items-center justify-center p-5 w-full md:w-150 bg-orange-300">
-                <h1>hola</h1>
-                <p>tu ticket esta en proceso</p>
-                <p>Atentido por</p>
-                <p>tiempo respuesta</p>
+            <!-- Ticket model  -->
+            <div class=" shadow-lg rounded-2xl shadow-blue-300 items-center justify-center p-5 w-full md:w-150 bg-gray-200">
+                <div class=" flex justify-between mb-2">
+                    <h1 class=" font-serif text-sm font-bold text-cyan-700">Ticket # <span class=" text-orange-500">222</span></h1>
+                    <a class=" rounded-2xl text-xs font-bold text-red-700" href="">Cancelar Ticket</a>
+                </div>
+                <div class=" bg-white rounded-2xl pb-3">
+                    <p class="rounded-lg bg-cyan-500 font-serif items-center justify-center flex font-bold text-white mb-1">PC no enciende</p>
+                    <p class=" pl-3 font-serif font-bold text-cyan-500 text-sm">Estatus: <span class=" text-yellow-300 font-sans font-bold">En espera</span></p>
+                    <p class=" pl-3 font-serif font-bold text-cyan-500 text-sm">Asignado a: <span class=" font-normal font-sans text-black">Fulanito</span></p>
+                </div>
             </div>
 
         </div>

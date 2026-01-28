@@ -2,9 +2,9 @@
 
 @section('content') <!-- Todo lo que pongas aquí reemplaza @yield('content') en el layout -->
 
-<section class="flex justify-center items-center w-full px-4">
+<section class="flex justify-center items-center w-full px-4 min-h-[calc(100vh-16rem)] ">
     <!-- Div centrado -->
-    <div class="bg-white shadow-lg rounded-xl p-6 w-full max-w-md shadow-cyan-500/50">
+    <div class="bg-white shadow-lg rounded-xl p-6 w-full max-w-lg shadow-cyan-500/50">
         <form method="POST" action="{{ route('registro') }}" class="w-full space-y-4">
             @csrf
             <h2 class="text-2xl font-bold text-center mb-4">Registro</h2>
