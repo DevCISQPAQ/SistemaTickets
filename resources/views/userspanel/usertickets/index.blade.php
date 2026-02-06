@@ -9,7 +9,7 @@
 <section class="flex-1 flex md:flex-row flex-col gap-6 px-4 md:px-30 py-4">
 
     <div class="bg-white shadow-lg rounded-xl flex flex-1 items-center justify-center md:m-5 
-                md:h-120 shadow-cyan-500/50 ">
+                md:h-140 shadow-cyan-500/50">
 
         <form class=" m-4 p-4 w-full md:max-w-lg bg-gray-50 rounded-xl shadow-lg shadow-blue-300">
 
@@ -56,7 +56,7 @@
 
     </div>
 
-    <div class="bg-white shadow-lg rounded-xl flex flex-1 flex-col md:items-center justify-center p-4 md:m-5 shadow-cyan-500/50 md:h-120">
+    <div class="bg-white shadow-lg rounded-xl flex flex-1 flex-col md:items-center justify-center p-4 md:m-5 shadow-cyan-500/50 md:h-140">
         <h2 class="text-2xl font-bold text-center mb-7 font-serif">Tus Tickets</h2>
         <div class=" flex-1 space-y-5">
             <!-- Ticket model  -->
